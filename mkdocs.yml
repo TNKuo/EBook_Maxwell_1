@@ -1,6 +1,6 @@
-site_name: TNKuo GitHub 學習筆記
-site_url: https://tnkuo.github.io/EBOOK_test/
-site_description: 使用 GitHub Pages 發布的學習網站
+site_name: Field Calculator of Maxwell
+site_url: https://tnkuo.github.io/EBook_Maxwell_1/
+site_description: EEMan_EBook Field Calculator of Maxwell 
 
 theme:
   name: material
@@ -23,6 +23,7 @@ theme:
     - navigation.sections
     - toc.integrate
     - search.suggest
+    - navigation.expand
 
 plugins:
   - search

@@ -60,10 +60,6 @@ nav:
     - 平面磁通密度計算量自動生成: si-zi-dong-hua-ying-yong/ping-mian-ci-tong-mi-du-ji-suan-liang-zi-dong-sheng-cheng/README.md
     - 磁通密度自動計算 - 補充說明: si-zi-dong-hua-ying-yong/ping-mian-ci-tong-mi-du-ji-suan-liang-zi-dong-sheng-cheng/ci-tong-mi-du-zi-dong-ji-suan-bu-chong-shuo-ming.md
     - 磁通密度自動計算(加入PyAEDT中使用): si-zi-dong-hua-ying-yong/ci-tong-mi-du-zi-dong-ji-suan-jia-ru-pyaedt-zhong-shi-yong.md
-  - 延伸閱讀:
-    - 章節 1: 1.-jing-pian-feng-zhuang-she-ji.md
-    - 章節 2: 2.-ci-xing-yuan-jian-she-ji.md
-    - 章節 3: 3.-emc-she-ji.md
-    - 章節 4: 4.-summary.md
+  - 五、SUMMARY:
     - GitBook SUMMARY: SUMMARY.md
-  - Reference: reference.md
+  

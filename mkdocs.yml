@@ -1,0 +1,68 @@
+site_name: TNKuo GitHub 學習筆記
+site_url: https://tnkuo.github.io/EBOOK_test/
+site_description: 使用 GitHub Pages 發布的學習網站
+
+theme:
+  name: material
+  language: zh-TW
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切換到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切換到淺色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+docs_dir: docs
+nav:
+  - 首頁: README.md
+  - 一、場量計算機功能介紹:
+    - 總覽: yi-chang-liang-ji-suan-ji-gong-neng-jie-shao/README.md
+    - 暫存器介紹: yi-chang-liang-ji-suan-ji-gong-neng-jie-shao/zan-cun-qi-jie-shao.md
+    - Export 場數據資訊: yi-chang-liang-ji-suan-ji-gong-neng-jie-shao/export-chang-shu-ju-zi-xun.md
+  - 二、場量計算機範例:
+    - 總覽: er-chang-liang-ji-suan-ji-fan-li/README.md
+    - Volume & Surface Area: er-chang-liang-ji-suan-ji-fan-li/volume-and-surface-area.md
+    - Magnetic Flux: er-chang-liang-ji-suan-ji-fan-li/magnetic-flux.md
+    - Flux Density of a sheet: er-chang-liang-ji-suan-ji-fan-li/flux-density-of-a-sheet.md
+    - Flux Density of a Volume: er-chang-liang-ji-suan-ji-fan-li/flux-density-of-a-volume.md
+    - Core Loss: er-chang-liang-ji-suan-ji-fan-li/core-loss.md
+    - Conductor Loss: er-chang-liang-ji-suan-ji-fan-li/wire-loss.md
+    - Current: er-chang-liang-ji-suan-ji-fan-li/current.md
+    - E Field: er-chang-liang-ji-suan-ji-fan-li/e-field.md
+    - Relative Permibility: er-chang-liang-ji-suan-ji-fan-li/relative-permibility.md
+  - 三、場量計算機進階應用:
+    - 總覽: san-chang-liang-ji-suan-ji-jin-jie-ying-yong/README.md
+    - 利用磁滯模型計算殘留磁力: san-chang-liang-ji-suan-ji-jin-jie-ying-yong/li-yong-ci-zhi-mo-xing-ji-suan-can-liu-ci-li.md
+    - Expression Cache (Flux Density): san-chang-liang-ji-suan-ji-jin-jie-ying-yong/expression-cache-flux-density.md
+    - Field Calculator Library: san-chang-liang-ji-suan-ji-jin-jie-ying-yong/field-calculator-library.md
+  - 四、自動化應用:
+    - 總覽: si-zi-dong-hua-ying-yong/README.md
+    - 平面磁通密度計算量自動生成: si-zi-dong-hua-ying-yong/ping-mian-ci-tong-mi-du-ji-suan-liang-zi-dong-sheng-cheng/README.md
+    - 磁通密度自動計算 - 補充說明: si-zi-dong-hua-ying-yong/ping-mian-ci-tong-mi-du-ji-suan-liang-zi-dong-sheng-cheng/ci-tong-mi-du-zi-dong-ji-suan-bu-chong-shuo-ming.md
+    - 磁通密度自動計算(加入PyAEDT中使用): si-zi-dong-hua-ying-yong/ci-tong-mi-du-zi-dong-ji-suan-jia-ru-pyaedt-zhong-shi-yong.md
+  - 延伸閱讀:
+    - 章節 1: 1.-jing-pian-feng-zhuang-she-ji.md
+    - 章節 2: 2.-ci-xing-yuan-jian-she-ji.md
+    - 章節 3: 3.-emc-she-ji.md
+    - 章節 4: 4.-summary.md
+    - GitBook SUMMARY: SUMMARY.md
+  - Reference: reference.md

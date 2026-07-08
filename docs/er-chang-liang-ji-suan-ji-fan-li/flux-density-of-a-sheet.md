@@ -17,9 +17,10 @@ B = Φ / A
 
 • 通流過鐵芯的截面，也可以用場量計算機，算出磁通量密度。使用靜磁場求解器的做法，可以參考圖2-6。
 
-<figure><img src="../assets/image (75).png" alt=""><figcaption><p>圖2-6</p></figcaption></figure>
+<figure><img src="../../assets/image (75).png" alt=""><figcaption><p>圖2-6</p></figcaption></figure>
 
 如果是使用渦流場求解器的讀者，要記得先把B場做轉換，作法請參考圖2-7。如果不採用正交的計算方法，也可以先把B場取和面正交的向量維度(以下面案例來說是Z方向)再對計算面做積分，也可以得到相同的答案。有興趣地讀者可以試試。
 
-<figure><img src="../assets/image (6).png" alt=""><figcaption><p>圖2-7</p></figcaption></figure>
+<figure><img src="../../assets/image (6).png" alt=""><figcaption><p>圖2-7</p></figcaption></figure>
+
 

@@ -10,25 +10,25 @@
 
 筆者下面以Flux Density的計算來做為範例，此範例是用Transient solver作分析。如圖3-7，我們用內建的範例取半電路作分析。
 
-<figure><img src="../assets/image (24).png" alt=""><figcaption><p>圖3-7</p></figcaption></figure>
+<figure><img src="../../assets/image (24).png" alt=""><figcaption><p>圖3-7</p></figcaption></figure>
 
 因為想要計算整體鐵芯的磁通分布，所以用前面介紹的Creat List方法，把鐵芯作群組列表。如圖3-8。
 
-<figure><img src="../assets/image (22).png" alt=""><figcaption><p>圖3-8</p></figcaption></figure>
+<figure><img src="../../assets/image (22).png" alt=""><figcaption><p>圖3-8</p></figcaption></figure>
 
 再把磁通的計算用場量計算機做參數方程式，如圖3-9。
 
-<figure><img src="../assets/image (9).png" alt=""><figcaption><p>圖3-9</p></figcaption></figure>
+<figure><img src="../../assets/image (9).png" alt=""><figcaption><p>圖3-9</p></figcaption></figure>
 
 下一步就是這邊想要介紹的Expression Cache重點。我們打開從左邊的分析設定，選擇上面的選單的第五項 Expression Cache。接著按Add的按鍵，找到剛剛建立的Calculator Expression B\_Core，選取並加入計算。
 
 接著調整計算時間，請參考讀者自己案例的Time step或是自定義的時間做輸入。如圖3-10。
 
-<figure><img src="../assets/image (17).png" alt=""><figcaption><p>圖3-10</p></figcaption></figure>
+<figure><img src="../../assets/image (17).png" alt=""><figcaption><p>圖3-10</p></figcaption></figure>
 
 最後在Report的地方新增剛剛所要計算的磁通曲線，而且重要的是，在這模擬中我們沒有儲存場量資訊，大大的減少硬碟讀取和模擬時間。
 
-<figure><img src="../assets/image (93).png" alt=""><figcaption><p>圖3-11</p></figcaption></figure>
+<figure><img src="../../assets/image (93).png" alt=""><figcaption><p>圖3-11</p></figcaption></figure>
 
 ## B Field with positive and negative changes
 
@@ -36,8 +36,9 @@
 
 如圖3-12所示。
 
-<figure><img src="../assets/image (94).png" alt=""><figcaption><p>圖3-12</p></figcaption></figure>
+<figure><img src="../../assets/image (94).png" alt=""><figcaption><p>圖3-12</p></figcaption></figure>
 
 由此就可以畫出隨激勵源變化有正負號的B場。
+
 
 

@@ -18,11 +18,12 @@ description: >-
 
 以圖2-10介紹的材料來作範例說明。具體方法請參考圖2-11。
 
-<figure><img src="../assets/image (85).png" alt=""><figcaption><p>圖2-10</p></figcaption></figure>
+<figure><img src="../../assets/image (85).png" alt=""><figcaption><p>圖2-10</p></figcaption></figure>
 
-<figure><img src="../assets/image (56).png" alt=""><figcaption><p>圖2-11</p></figcaption></figure>
+<figure><img src="../../assets/image (56).png" alt=""><figcaption><p>圖2-11</p></figcaption></figure>
 
 完成場量計算機的設定，我們甚至可以用場量計算機的結果來畫出Core Loss在鐵芯的分佈投影。如圖2-12。
 
-<figure><img src="../assets/image (90).png" alt="" width="375"><figcaption><p>圖2-12</p></figcaption></figure>
+<figure><img src="../../assets/image (90).png" alt="" width="375"><figcaption><p>圖2-12</p></figcaption></figure>
+
 

@@ -2,7 +2,7 @@
 
 細心的讀者可能有注意到，在上章節的第八步，我們做了一次清除的動作，這個動作是因為如果重複創造一樣的名稱的時候，Maxwell會發生執行錯誤(如圖4-7)。但除了手動清除，有其他方法讓程式能自動順利執行嗎？
 
-<figure><img src="../../assets/image (71).png" alt=""><figcaption><p>圖4-7</p></figcaption></figure>
+<figure><img src="../../../assets/image (71).png" alt=""><figcaption><p>圖4-7</p></figcaption></figure>
 
 有的!\~\~
 
@@ -12,7 +12,7 @@
 
 優化後的執行的結果可以參考圖4-8。
 
-<figure><img src="../../assets/image (64).png" alt=""><figcaption><p>圖4-8</p></figcaption></figure>
+<figure><img src="../../../assets/image (64).png" alt=""><figcaption><p>圖4-8</p></figcaption></figure>
 
 更新的程式碼也提供給讀者參考。讀者可以比較前後程式碼的差別。
 
@@ -51,4 +51,5 @@ for i in range(1,5):
 
 
 ## _<mark style="color:blue;">**2023/03 updated.**</mark>_
+
 

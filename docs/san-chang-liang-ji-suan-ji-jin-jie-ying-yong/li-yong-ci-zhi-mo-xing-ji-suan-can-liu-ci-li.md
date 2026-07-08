@@ -18,23 +18,24 @@
 
 圖3-1是一個Maxwell 2D的C core模型，裡面包含了C core的軟磁材料、激磁繞線組以及觀測的線段。
 
-<figure><img src="../assets/image (51).png" alt="" width="563"><figcaption><p>圖3-1</p></figcaption></figure>
+<figure><img src="../../assets/image (51).png" alt="" width="563"><figcaption><p>圖3-1</p></figcaption></figure>
 
 在材料設定上，我們要將此軟磁材料的損失設置為磁滯模型(圖3-2)，並輸入材料供應商所提供的Hci/Br。如圖3-3。
 
-<figure><img src="../assets/image (60).png" alt="" width="563"><figcaption><p>圖3-2</p></figcaption></figure>
+<figure><img src="../../assets/image (60).png" alt="" width="563"><figcaption><p>圖3-2</p></figcaption></figure>
 
-<figure><img src="../assets/image (3) (1).png" alt="" width="563"><figcaption><p>圖3-3</p></figcaption></figure>
+<figure><img src="../../assets/image (3) (1).png" alt="" width="563"><figcaption><p>圖3-3</p></figcaption></figure>
 
 場量計算機在這邊用來計算線段上面通過的磁通量，方法如圖3-4所示。
 
-<figure><img src="../assets/image (67).png" alt=""><figcaption><p>圖3-4</p></figcaption></figure>
+<figure><img src="../../assets/image (67).png" alt=""><figcaption><p>圖3-4</p></figcaption></figure>
 
 接著要設定輸入的激勵電流，藉由電流激磁來觀測0.5/2.5/4.5/6.5秒電流歸零時，軟磁材料的殘留磁力表現。
 
-<figure><img src="../assets/image (62).png" alt="" width="563"><figcaption><p>圖3-5</p></figcaption></figure>
+<figure><img src="../../assets/image (62).png" alt="" width="563"><figcaption><p>圖3-5</p></figcaption></figure>
 
 由設置磁滯損失模型，再通電過後的模擬。如圖3-6，觀察軟磁材料的殘留磁力，且當電流逐漸增加至滿足操作點可描繪BH的major loop，模擬也能表現出對應的殘留磁力關係。
 
-<figure><img src="../assets/image (43).png" alt="" width="563"><figcaption><p>圖3-6</p></figcaption></figure>
+<figure><img src="../../assets/image (43).png" alt="" width="563"><figcaption><p>圖3-6</p></figcaption></figure>
+
 
